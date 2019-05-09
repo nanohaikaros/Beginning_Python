@@ -4,7 +4,7 @@ sentence = input("Sentence: ")
 
 screen_width = 80
 text_width = len(sentence)
-box_width = text_width
+box_width = text_width + 2
 left_margin = (screen_width - box_width) // 2
 
 print() 
